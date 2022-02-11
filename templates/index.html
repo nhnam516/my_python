@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title> Home page </title>
+    </head>
+    <body>
+        <h1> Home Page! </h1>
+        <p> Hey! This is {{number}} html file! {{content}} </p>
+        {% for x in range(10) %}
+            {% if x % 2 == 1 %}
+            <p> {{x}}</p>
+            {%endif%}
+        {% endfor %}
+
+        {% if y <= 5 %}
+            <p> y </p>
+        {% endif %}
+
+        {% for k in namelist %}
+            <p>{{k}}</p>
+        {% endfor %}
+    </body>
+
+</html>
